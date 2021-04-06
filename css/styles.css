@@ -4,41 +4,48 @@ body {
     margin-right: 20%;
     font-family: Raleway;
     color: #444451;
+    font-size: 1.5em;
 }
 
 .title {
     font-weight: 700;
-    font-size: 40px;
 }
 
 .description {
     display: grid;
     max-height: 100vh;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 7fr 3fr;
+    gap: 10%;
     margin-bottom: 30%;
-}
-
-.mainSectionHeader {
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 0.9em;
     margin-top: 5%;
 }
 
+.mainSectionHeader {
+    font-weight: bold;
+    margin-top: 15%;
+}
+
 .mainSection {
-    font-size: 40px;
     margin-top: 5%;
 }
 
 .subSection {
     font-style: normal;
-    font-size: 30px;;
     margin-top: 5%;
+    font-size: 0.6em;
+}
+
+.subSection img {
+    max-width: 90%;
+    float:left;
+    margin-bottom: 10%;
 }
 
 .subSectionHeader {
     font-style: normal;
-    font-size: 35px;;
-    margin-top: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .descriptionTextContainer {
@@ -48,15 +55,32 @@ body {
 .descriptionText {
     display: inline-block;
     text-align: left;
-    font-size: 30px;
     line-height: 120%;
 }
 
 .description img {
-    width: 50%;
+    width: 100%;
     margin: auto;
     border-radius: 50%;
 }
+
+.imageGrid {
+    display: grid;
+    gap: 1%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imageGrid img{
+    max-width: 100%;
+}
+@media screen and (max-width: 767px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 1em;
+    }
+  } 
+
 
 @font-face {
     font-family: Raleway;
