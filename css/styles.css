@@ -1,0 +1,121 @@
+body {
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Raleway;
+    color: #444451;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.description {
+    display: grid;
+    max-height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30%;
+}
+
+.mainSectionHeader {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.mainSection {
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+.subSection {
+    font-style: normal;
+    font-size: 30px;;
+    margin-top: 5%;
+}
+
+.subSectionHeader {
+    font-style: normal;
+    font-size: 35px;;
+    margin-top: 5%;
+}
+
+.descriptionTextContainer {
+    align-self: center;
+}
+
+.descriptionText {
+    display: inline-block;
+    text-align: left;
+    font-size: 30px;
+    line-height: 120%;
+}
+
+.description img {
+    width: 50%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/Raleway-Light.ttf);
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/Raleway-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/Raleway-Regular.ttf);
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/Raleway-Italic.ttf);
+    font-weight: 400;
+    font-style: italic
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/Raleway-Medium.ttf);
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/Raleway-MediumItalic.ttf);
+    font-weight: 500;
+    font-style: italic
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/Raleway-Bold.ttf);
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/Raleway-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic
+}
+
+@font-face {
+    font-family: BitPotion;
+    src: url(../fonts/BitPotion/BitPotionExt.ttf);
+    font-style: normal
+}
