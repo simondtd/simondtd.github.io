@@ -5,9 +5,12 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/script.js"></script>
+    <title>Simon Hesjevik</title>
 </head>
 
 <body>
+    <button onclick="topFunction()" id="scrollButton" title="Go to top">Top</button>
     <div class="title">Hello there! 👋 <br>I'm Simon Hesjevik</div>
     <div class="description">
         <div class="descriptionTextContainer">
@@ -18,8 +21,16 @@
         <img src="img/profile_pic.jpg">
     </div>
 
+    <div class="navBar">
+        <a href="#projects">Projects</a> | <a href="#education">Education</a> | <a href="#skills">Skills</a>
+    </div>
+
+    <div class="navBarSmall">
+        <a href="https://github.com/simondtd">GitHub</a> <a href="mailto:Hesjeviksimon@gmail.com">Email</a>
+    </div>
+
     <div class="mainSection">
-        <div class="mainSectionHeader">Projects:</div>
+        <div class="mainSectionHeader" id="projects">Projects</div>
 
         <div class="subSectionHeader">Nonno Lorenzo (2018-present)</div>
         <div class="subSection">
@@ -70,6 +81,35 @@
             CI/CD hooks tied into GitHub which deploys it with docker<br>
             Game Engine is self-made using HTML canvas and TypeScript with its own<br>
             entity component system<br>
+        </div>
+
+        <div class="mainSectionHeader" id="education">Education</div>
+        <div class="subSectionHeader">Royal Melbourne Institute of Technology (2018-2020)</div>
+        <div class="subSection">
+            Bachelors degree in Computer Science<br>
+            Specialization in Graphics Programming
+        </div>
+
+        <div class="subSectionHeader">Malvik Videregående Skole (2013-2016)</div>
+        <div class="subSection">
+            Specialization in General Studies Vg1,<br>
+            Natural Science and Mathematics Studies Vg2,<br>
+            Natural Science and Mathematics Studies Vg3,<br>
+            General university admissions certification
+
+        </div>
+
+
+        <div class="mainSectionHeader" id="skills">Skills & Tools</div>
+        <div class="subSectionHeader">Game Design & Development</div>
+        <div class="subSection">
+            Unity Engine, GitHub, Trello, C#, C++ and more...
+        </div>
+
+        <div class="subSectionHeader">Software Development & General Development</div>
+        <div class="subSection">
+            Asp.NET core, SpringBoot, TravisCI, Docker, GitHub & GitFlow, PlasticSCM<br>
+            Java, HTML, PHP, TypeScript, React, Vue, Angular and more...
         </div>
 
     </div>
