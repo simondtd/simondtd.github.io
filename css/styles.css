@@ -21,24 +21,23 @@ body {
     padding: 15px;
     border-radius: 10px;
     font-size: 18px;
-  }
-  
-  #scrollButton:hover {
-    background-color: #555;
-  }
+}
 
-  .footer {
-      width: 100%;
-      background-color: cornsilk;
-      
-  }
+#scrollButton:hover {
+    background-color: #555;
+}
+
+.footer {
+    width: 100%;
+    background-color: cornsilk;
+}
 
 .navBar {
     text-align: center;
     margin-bottom: 1%;
 }
 
-.navBarSmall{
+.navBarSmall {
     text-align: center;
     margin-bottom: 30%;
 }
@@ -72,6 +71,11 @@ body {
 .title a {
     font-weight: 700;
     text-decoration: none;
+}
+
+.title a:link {
+    color: red;
+    color: #444451;
 }
 
 .title a {
@@ -118,7 +122,7 @@ body {
 
 .subSection img {
     max-width: 90%;
-    float:left;
+    float: left;
     margin-bottom: 10%;
 }
 
@@ -150,17 +154,17 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
-.imageGrid img{
+.imageGrid img {
     max-width: 100%;
 }
+
 @media screen and (max-width: 767px) {
     body {
         margin-left: 5%;
         margin-right: 5%;
         font-size: 1em;
     }
-  } 
-
+}
 
 @font-face {
     font-family: Raleway;
