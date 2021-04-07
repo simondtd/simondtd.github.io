@@ -69,6 +69,28 @@ body {
     font-weight: 700;
 }
 
+.title a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.title a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.title a:visited {
+    font-weight: 700;
+    text-decoration: none;
+    color: #444451;
+}
+
+.title a:active {
+    font-weight: 700;
+    text-decoration: none;
+    color: #444451;
+}
+
 .description {
     display: grid;
     max-height: 100vh;
