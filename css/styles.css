@@ -28,6 +28,25 @@ body {
     background-color: #555;
 }
 
+.skillContainer{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    gap: 2%;
+    margin-bottom: 5%;
+    font-size: 0.9em;
+    margin-top: 5%;
+}
+
+.skillName {
+    font-weight: bold;
+    font-size: 0.75em;
+}
+
+.skillInfo {
+    font-style: italic;
+    font-size: 0.75em;
+}
+
 .footer {
     width: 100%;
     background-color: cornsilk;
