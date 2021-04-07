@@ -2,7 +2,6 @@ body {
     margin-top: 10%;
     margin-left: 20%;
     margin-right: 20%;
-    margin-bottom: 25%;
     font-family: Raleway;
     color: #444451;
     font-size: 2em;
@@ -48,8 +47,11 @@ body {
 }
 
 .footer {
-    width: 100%;
-    background-color: cornsilk;
+    text-align: center;
+    color: #575769;
+    font-size: 0.6em;
+    margin-top: 20%;
+    margin-bottom: 5%;
 }
 
 .navBar {
